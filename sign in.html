@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Truck Driver Sign Up</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        form {
+            border: 1px solid #ccc;
+            padding: 20px;
+            width: 500px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center">Truck Driver Sign Up</h1>
+
+    <form action="#">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email address">
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password">
+
+        <label for="phone_number">Phone Number:</label>
+        <input type="text" id="phone_number" name="phone_number" placeholder="Enter your phone number">
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="5" placeholder="Enter your address"></textarea>
+
+        <label for="truck_type">Truck Type:</label>
+        <select id="truck_type" name="truck_type">
+            <option value="">Select a truck type</option>
+            <option value="mini_truck">Mini Truck</option>
+            <option value="light_truck">Light Truck</option>
+            <option value="medium_truck">Medium Truck</option>
+            <option value="heavy_truck">Heavy Truck</option>
+        </select>
+
+        <label for="driving_license">Driving License Number:</label>
+        <input type="text" id="driving_license" name="driving_license" placeholder="Enter your driving license number">
+
+        <label for="experience">Experience (in years):</label>
+        <input type="number" id="experience" name="experience" placeholder="Enter your experience in years">
+
+ <label for="truck_model">Truck Model:</label>
+        <input type="text" id="truck_model" name="truck_model" placeholder="Enter truck model">
+</form>
+<p align="center">
+<a href="login.html">
+        <button type="submit">Sign Up </button></a></p>
+    
+</body>
+</html
